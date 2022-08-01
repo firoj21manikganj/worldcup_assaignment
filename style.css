@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-section {
+    margin: 20px auto;
+    display: flex;
+    background-color: black;
+    width: 160vh;
+    height: 76vh;
+
+    align-items: center;
+    border-radius: 5%;
+
+
+}
+
+.header-section>div {
+    width: 50%;
+}
+
+.headerleft {
+    padding: 4%;
+}
+
+.greatestshow {
+    font-size: 3em;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.firstpara {
+    color: rgb(49, 95, 134);
+}
+
+.live {
+    display: block;
+    background-color: red;
+    width: 30%;
+    padding: 4px;
+    border-radius: 5%;
+    font-size: small;
+
+}
+
+.container {
+
+    height: auto;
+    display: grid;
+    grid-template-columns: 250px auto;
+    column-gap: 30px;
+
+    margin: 100px 100px 0 100px;
+}
+
+.sidebar {
+    height: 200px;
+    padding: 40px;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.imagesection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 20px;
+
+    overflow: hidden;
+
+}
+
+.sidebar>.allgrp {
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 10px;
+    text-align: center;
+
+
+}
+
+.sidebar>.upcoming {
+    margin: 10px;
+    background-color: white;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5%;
+    text-align: center;
+
+
+}
+
+.sidebar>.blog {
+    background-color: red;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5%;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.transfer {
+
+    border: ridge;
+    width: 100px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.icon {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.livetransfer {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 50px;
+    width: auto;
+    height: 300px;
+    background-color: black;
+    padding: 10% 0;
+    text-align: center;
+
+}
+
+.goal {
+    margin-bottom: 20px;
+    font-size: bold;
+    color: white;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav li a {
+    color: aliceblue;
+    font-size: smaller;
+    text-decoration: none;
+}
